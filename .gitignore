@@ -1,2 +1,5 @@
 *.Rproj*
+.Rhistory
 
+/.quarto/
+.Rproj.user
