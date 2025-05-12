@@ -1,6 +1,5 @@
 project:
   type: website
-
 website:
   title: "Dr. Julian Barg, climate disinformation research"
   navbar:
@@ -24,6 +23,5 @@ format:
       - cosmo
       - brand
     css: styles.css
-
-
-
+execute:
+  freeze: auto

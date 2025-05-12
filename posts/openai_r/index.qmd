@@ -1,0 +1,117 @@
+---
+title: "Using the OpenAI API to quickly code data in R"
+date: 2025-05-11
+---
+
+Every time I want to quickly bash out a command to code some data with ChatGPT
+in R, I stumble. Not that it is very difficult, it is just a very different 
+workflow compared to the stuff I usually do, and I have to look it up every 
+time. As a result, I am no longer in the flow.
+
+The easiest way to interact with the OpenAI API, hands down, is to use the 
+official python package. Yes, you could use curl or the R equivalent, but in 
+practice many of the best features, such as structured outputs, are only 
+available when using the python package, or the python implementation is more 
+feature complete or easier to use.
+
+Since r-reticulate provides an interface between R and python, we can also take
+full advantage of the native python package when working in R. It plugs right 
+into your regular workflow. First we initiate reticulate and grab some example
+data.
+
+```{r library}
+library(reticulate)
+library(tidyverse)
+library(janeaustenr)
+data("emma")
+glimpse(emma)
+```
+
+Next we switch over to R and set up the function for coding our text data. We
+could get fancy and accept role and task etc. as function arguments, but that
+should generally not be necessary.
+
+```{python openai}
+from openai import OpenAI
+from pydantic import BaseModel, Field
+from typing import Literal
+import json
+
+client = OpenAI()
+def code_male_female(line, model_, seed_ = 321):
+  role = """
+  You are a graduate research assistants assisting us with our research project 
+  on Jane Austen. Count the number of female and male characters per line.
+  """
+  system_role = {"role": "system", "content": role}
+
+  task = f"""
+  Next, we will send you one line to analyze.
+  
+  {line}
+  """
+  prompt_json = {
+    "role": "user", 
+    "content": [
+      {
+        "type": "text", 
+        "text": task
+      }
+    ]
+  }
+  messages_ = [
+    system_role, 
+    prompt_json
+  ]
+  Certainty = Literal[
+    "very certain", "certain", "neutral", "uncertain", "very uncertain"
+    ]
+  class CodingResponse(BaseModel):
+    male: int = Field()
+    female: int = Field()
+    certainty: Certainty
+    
+  response = client.beta.chat.completions.parse(
+    model = model_,
+    messages = messages_,
+    response_format = CodingResponse
+  )
+  return json.loads(response.choices[0].message.content)
+  
+test = code_male_female("This is just a text", "gpt-4o-mini")
+print(test)
+```
+
+Now we can conveniently apply this function to our Jane Austen sample within R.
+
+```{r test}
+code_partial <- partial(py$code_male_female, model_ = "gpt-4o-mini")
+results <- map(emma[1:20], code_partial, .progress = T)
+bind_rows(results)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
