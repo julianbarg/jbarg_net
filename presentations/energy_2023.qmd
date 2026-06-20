@@ -1,0 +1,10 @@
+---
+title: "Energy Trends 2023"
+description: "Energy Trends"
+---
+
+```{=html}
+<iframe src="https://julianbarg.github.io/public_documents/presentations/energy_trends_2023-03-29.pdf" width="100%" style="height:90vh; border:none;"></iframe>
+```
+
+Presentation for industry folks with focus on business implications.

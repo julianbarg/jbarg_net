@@ -1,0 +1,9 @@
+---
+title: "Interactions Visualizer"
+description: "Example — visualizing interactions with topic model"
+date: "2020-12-21"
+---
+
+```{=html}
+<iframe src="https://julianbarg.shinyapps.io/visualizer/" width="100%" style="height:90vh; border:none;"></iframe>
+```

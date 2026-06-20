@@ -1,0 +1,10 @@
+---
+title: "ACS Aug. 2024"
+description: "Presentation on Climate Accountability as held at ACS 2024"
+---
+
+```{=html}
+<iframe src="https://julianbarg.github.io/public_documents/presentations/2024-08-19_jb_ACS_slides.pdf" width="100%" style="height:90vh; border:none;"></iframe>
+```
+
+Presentation with some focus on ESG.

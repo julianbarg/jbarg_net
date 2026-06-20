@@ -1,0 +1,10 @@
+---
+title: "Greenwashing Aug. 2023"
+description: "Presentation on greenwashing as held at AOM 2023"
+---
+
+```{=html}
+<iframe src="https://julianbarg.github.io/public_documents/presentations/gw_2023.pdf" width="100%" style="height:90vh; border:none;"></iframe>
+```
+
+Presentation with some focus on ESG.

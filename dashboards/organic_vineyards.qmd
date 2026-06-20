@@ -1,0 +1,9 @@
+---
+title: "Organic and Biodynamic Vineyards in California"
+description: "Location, attributes, and density"
+date: "2020-12-21"
+---
+
+```{=html}
+<iframe src="https://julianbarg.shinyapps.io/wine_illustration/" width="100%" style="height:90vh; border:none;"></iframe>
+```

@@ -1,0 +1,9 @@
+---
+title: "Greenwashing Literature Dashboard"
+description: "Greenwashing literature — growth and trends"
+date: "2020-12-10"
+---
+
+```{=html}
+<iframe src="https://julianbarg.shinyapps.io/greenwash_dashboard/" width="100%" style="height:90vh; border:none;"></iframe>
+```

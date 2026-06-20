@@ -1,0 +1,9 @@
+---
+title: "Pipeline Incidents Dashboard"
+description: "Overview of pipeline spills in the US 2000–2019"
+date: "2020-12-10"
+---
+
+```{=html}
+<iframe src="https://julianbarg.shinyapps.io/incident_dashboard/" width="100%" style="height:90vh; border:none;"></iframe>
+```

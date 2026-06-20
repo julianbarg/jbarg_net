@@ -1,0 +1,8 @@
+---
+title: "PhD Public Lecture 2023"
+description: "You know, the thing you do before your PhD defense."
+---
+
+```{=html}
+<iframe src="https://julianbarg.github.io/public_documents/presentations/public_lecture_JB_2023-09-08.pdf" width="100%" style="height:90vh; border:none;"></iframe>
+```

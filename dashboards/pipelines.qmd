@@ -1,0 +1,9 @@
+---
+title: "Pipelines Dashboard"
+description: "Visualize pipeline operator attributes and safety performance"
+date: "2020-12-21"
+---
+
+```{=html}
+<iframe src="https://julianbarg.shinyapps.io/pipelines_dashboard/" width="100%" style="height:90vh; border:none;"></iframe>
+```

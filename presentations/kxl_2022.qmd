@@ -1,0 +1,8 @@
+---
+title: "Keystone XL 2022"
+description: "Held at Ivey PhD Research Series."
+---
+
+```{=html}
+<iframe src="https://julianbarg.github.io/public_documents/presentations/kxl_2022-11-23.pdf" width="100%" style="height:90vh; border:none;"></iframe>
+```

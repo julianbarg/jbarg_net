@@ -3,14 +3,46 @@ project:
 website:
   title: "Dr. Julian Barg, climate disinformation research"
   navbar:
+    logo: resources/logo.png
     right:
       - text: "Publications"
         menu:
-          - text: Montgomery et al. (2021) No End in Sight? A Greenwash Review and Research Agenda
+          - text: "Montgomery et al. (2024) No End in Sight? A Greenwash Review and Research Agenda"
             href: https://journals.sagepub.com/doi/10.1177/10860266231168905
-          - text: Zbaracki et al (2021)
-            href: content/zbaracki_et_al_2021.qmd
-      - about.qmd
+      - text: "Dashboards"
+        menu:
+          - text: "Greenwashing Literature (2020)"
+            href: dashboards/greenwashing.qmd
+          - text: "Pipeline Spills (2020)"
+            href: dashboards/incidents.qmd
+          - text: "Pipeline Operators (2020)"
+            href: dashboards/pipelines.qmd
+          - text: "Organic Vineyards (2020)"
+            href: dashboards/organic_vineyards.qmd
+          - text: "Interaction Visualizer (2020)"
+            href: dashboards/interactions.qmd
+      - text: "Presentations"
+        menu:
+          - text: "ACS 2024"
+            href: presentations/acs_2024.qmd
+          - text: "Public Lecture 2023"
+            href: presentations/public_lecture.qmd
+          - text: "Greenwashing 2023"
+            href: presentations/gw_2023.qmd
+          - text: "EGOS 2023"
+            href: presentations/egos_2023.qmd
+          - text: "Energy Trends 2023"
+            href: presentations/energy_2023.qmd
+          - text: "Net Zero 2023"
+            href: presentations/net_zero_2023.qmd
+          - text: "Keystone XL 2022"
+            href: presentations/kxl_2022.qmd
+      - text: "About"
+        menu:
+          - text: "About me"
+            href: about.qmd
+          - text: "Academic CV"
+            href: cv.qmd
       - text: "![](/resources/bsky.png){height=1em}"
         href: https://bsky.app/profile/jbarg.bsky.social
       - icon: linkedin

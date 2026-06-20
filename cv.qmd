@@ -1,0 +1,7 @@
+---
+title: "Academic CV"
+---
+
+```{=html}
+<iframe src="https://julianbarg.github.io/CV/CV.pdf" width="100%" style="height:90vh; border:none;"></iframe>
+```

@@ -1,0 +1,10 @@
+---
+title: "Net Zero 2023"
+description: "Net Zero taught to undergrads."
+---
+
+```{=html}
+<iframe src="https://julianbarg.github.io/public_documents/presentations/net_zero_JB_2023-03-14.pdf" width="100%" style="height:90vh; border:none;"></iframe>
+```
+
+Session on Net Zero for undergraduate students.

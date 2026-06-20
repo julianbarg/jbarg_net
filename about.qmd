@@ -1,6 +1,7 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Julian Barg"
+description: "julian@jbarg.net"
+image: resources/headshot.jpg
 about:
   template: jolla
   links:
@@ -12,7 +13,8 @@ about:
     - icon: github
       text: Github
       href: https://github.com/julianbarg/
-
 ---
 
-About this blog
+Julian Barg is a postdoctoral researcher at the University of Michigan, working in Geoffrey Supran's Climate Accountability Lab. His recent work examines how fossil fuel companies fund and promote climate delay technologies. He is a social data scientist, working with large datasets and methods including web scraping, natural language processing, and large language models. He most recently coauthored "[No End in Sight? A Greenwash Review and Research Agenda](https://doi.org/10.1177/10860266231168905)", published in *Organization & Environment*.
+
+A long time ago Julian lived in Germany, mostly because he was born there. He then went on to study in China and Canada. He is currently residing in Miami, FL (the unofficial capital of Latin America).
