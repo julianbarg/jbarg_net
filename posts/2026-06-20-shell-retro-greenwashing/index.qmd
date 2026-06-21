@@ -1,0 +1,91 @@
+---
+title: "Retro greenwashing from Shell"
+author: Julian Barg
+date: 2026-06-20
+---
+
+A few days ago, I randomly came across this 2009 promotional film by Shell. In 
+their own words:
+
+> This new film has leading scientists and environmentalists discuss the merits 
+of CCS and visit projects in Australia and the US. It features experts from 
+institutions including Imperial College London, Princeton University, Shell, the 
+Climate Institute and WWF UK.
+
+{{< video https://www.youtube.com/watch?v=cohgQZq-l1w >}}
+
+Peak techno-optimistic aesthetics. Starting from the thumbnail: a man in a
+grey suit standing in front of a highly complicated refinery. It's a vibe. Not my 
+vibe, but I get the aesthetic. Very authoritative. Very "we know technology and
+we've got this."
+
+There are a few important insights from this video. 
+
+The video is very well produced, opening with fancy shots of Earth and a 
+generic city, a refinery, and a voice speaking over wondrous music. Clearly 
+Shell cared enough to spend on this, and the video was meant to inspire a sense
+of awe and a "yeah, science" sentiment.
+
+We then learn that the voice is Prof. Robert Socolow of Princeton University. 
+One of the main reasons we are in a situation where global temperatures are
+rising while emissions are still soaring is that fossil fuel companies have 
+been spending big on building the authority to speak to climate 
+change. They wanted the public to believe that they knew everything there is to 
+know about the issue, and that they had the solution.
+
+Conveniently, one of those solutions was carbon capture and storage, which meant 
+business as usual for oil companies. No phase-out of fossil fuels, no transition
+to renewables, just more pumping of oil and gas.
+
+Next, Shell manages to get someone from WWF on camera: the WWF 
+Climate Change Policy Officer, no less. She does not endorse carbon capture and 
+storage, but her appearance early in the video makes it seem as though 
+environmentalists have 
+been involved with the project or broader efforts. Over the years, oil companies
+have repeatedly tried (and unfortunately sometimes succeeded) to co-opt 
+environmental organizations to influence public discourse or deflect
+criticism.
+
+Then there is a cut to Prof. Martin Blunt at Imperial College London,
+sitting in front of a computer at a lab, in a lab coat. Again, Shell is 
+commandeering the voice of science for image management purposes. Prof. 
+Blunt speaks on climate change, even though he hasn't published on the topic.
+He is a materials scientist working in petroleum engineering. When I 
+checked Google Images, I could not find a single photo of him in a lab coat.
+It must have been Shell's request; it certainly wouldn't reflect 
+how Prof. Blunt usually presents himself.
+
+And then comes the predictable pitch for carbon capture and storage as an 
+alternative to renewable energy. Again, we get wondrous music and the same 
+scientists presenting the idea. What are we supposed to believe? 
+
+One more professor enters the mix: Prof. Sally Benson of Stanford 
+University, also appearing in a lab setting. She presents the 
+solution, again with inspiring music in the background. "The idea is that we 
+separate the carbon dioxide from the other gases that are coming out ... and
+that you then start to pump it underground."
+
+John Berry, Strategic Issues Manager at Shell, then quickly makes clear that 
+this is really just a bridging solution intended to buy us a few decades.
+
+Later, a speaker from The Climate Institute tells us that instead of debating, 
+we should simply evaluate the technology in real life.
+
+And then, there it is: Shell's CO2CRC Otway Project in South-West Victoria, 
+Australia, where the technology is supposedly becoming a reality. Everyone
+on screen sounds quite optimistic that the carbon dioxide will stay underground. 
+
+Knowing what we know today, it's fairly easy to see through the project. 
+The video never mentions it, but the amount of carbon dioxide stored on site 
+is only in the tens of thousands of 
+tonnes. 65,000 tonnes in stage one [@Sharma2011]. While Australia emits
+hundreds of millions of tonnes each year. If 
+anything, the project proves that Shell was never serious about deploying 
+carbon capture and storage at a meaningful scale.
+
+Instead of buying us a few decades, Shell lulled the public into a false 
+sense of certainty that things were progressing, and that 
+fossil fuels could be made compatible with reduced or even zero emissions. That 
+was not the case, and as a result we are in the process of overshooting the 
+1.5°C and 2°C climate targets. But Shell is still raking
+in plenty of money, so they've got that going for them, I guess.
