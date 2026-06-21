@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: ../jbarg_net_live
 website:
   title: "Dr. Julian Barg, climate disinformation research"
   navbar:
