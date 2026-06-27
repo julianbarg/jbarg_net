@@ -1,6 +1,6 @@
 ---
 title: "Julian Barg"
-description: "julian@jbarg.net"
+description: "jbarg@gmail.com"
 image: resources/headshot.jpg
 about:
   template: jolla
