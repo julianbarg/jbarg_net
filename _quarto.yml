@@ -56,5 +56,6 @@ format:
       - cosmo
       - brand
     css: styles.css
+    include-after-body: resources/right-panel.html
 execute:
   freeze: auto
