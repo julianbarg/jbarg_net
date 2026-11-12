@@ -1,8 +1,0 @@
----
-title: "What is climate change?"
-author: Julian Barg
-date: 2026-06-20
-draft: true
----
-
-

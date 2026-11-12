@@ -1,5 +1,6 @@
 project:
   type: website
+resources: /.domains
 website:
   title: "Dr. Julian Barg, climate disinformation research"
   navbar:
